@@ -1,0 +1,257 @@
+@media(max-width:991px){
+    /* ============== top heading=============== */
+    .top-left i {padding-right: 1px;}
+    .top-left span {padding-right: 5px;}
+    .top-right ul li {padding: 0 5px;}
+    .top-right ul li::after{top: 20%;height: 18px;}
+    .event {padding: 35px 0;}
+    .event h2 {font-size: 70px;}
+    /* ============== bottom heading=============== */
+    .revenant-details h2 {font-size: 40px;}
+    .revenant-details p{
+        width: 40%;;
+        top: 73%;
+        left: 13%;
+        transform: translate(-13%, -73%);
+    }
+    .down_text h4 {font-size: 20px; padding-bottom: 10px;}
+    /* ============== circle text =============== */
+    .deshad-border{padding: 30px 0 50px;}
+    .circle_1{margin: 22px 0;}
+    /* ============== recent portfolio =============== */
+    .portfolio_title h2{width: 65%;padding-bottom: 18px;}
+    .portfolio_title p{padding: 22px 0;}
+    .card-details h3 {padding-bottom: 8px;}
+    .card-details p{padding-top: 5px;}
+    .card-details h3{font-size: 14px;padding-bottom: 10px;}
+    /* ============== testimonial section =============== */
+    .testimonial_title h2 {font-size: 27px;padding: 35px 0 25px;}
+    .person_details{padding: 15px 0 20px;}
+    .person_identity p{padding-bottom: 8px;}
+    .person_identity h5{padding-bottom: 20px;}
+    .faq_section h2{font-size: 25px;padding: 35px 0 25px;}
+    .frequently_qq{padding: 15px 0 35px;}
+    .news_title h2{font-size: 25px;width: 45%;}
+    /* ============== latest news =============== */
+    #latest_news_section .news_title .div1 {
+        top: 48%;
+        left: 27%;
+        transform: translate(-48%, -27%);
+    }
+    #latest_news_section .news_title .div2 {
+        top: 49%;
+        right: 27%;
+        transform: translate(49%, -26%);
+    }
+    .news_coustory{padding: 30px 0 12px;}
+    .date_time{left: 9.5%;}
+     /* ============== slide section =============== */
+    .slide_section{padding: 45px 0 45px;}
+    /* ============== social icons =============== */
+    .get_start::after{height: 70%;top: 13%;}
+    .media_icons::after{height: 70%;top: 13%;}
+    .search_anything::after{height: 70%;top: 13%;}
+    /* ============== top footer =============== */
+    .contact_section{padding: 25px 35px;}
+    .sing_up_area{padding: 25px 0;}
+    #top_footer{padding: 30px 0;}
+    .made_in{text-align: left;}
+}
+
+@media(max-width:767px){
+    /* ============== header =============== */
+    .top-left{text-align: center;}
+    .top-right{padding: 10px 0; margin-left: 120px;}
+    .event h2 {font-size: 50px;}
+    .event {padding: 25px 0;}
+    .drp-dwn ul li {padding: 25px 8px 23px;}
+    /* ============== picture section =============== */
+    .revenant-details h2 {font-size: 28px;}
+    .revenant-details p {
+        width: 60%;
+        top: 74%;
+        left: 15%;
+        transform: translate(-15%, -74%);
+    }
+    .down_text {padding: 25px 0 20px;}
+    .down_text h4 {font-size: 16px;}
+    .circle_1 {margin: 22px 115px;}
+    .deshad-border {padding: 30px 0 28px;}
+    #portfolio_section {padding: 40px 0 30px;}
+    /* ============== latest news =============== */
+    #latest_news_section .news_title .div1 {
+        top: 40%;
+        transform: translate(-40%, -27%);
+    }
+    #latest_news_section .news_title .div2 {
+        top: 40%;
+        right: 27%;
+        transform: translate(40%, -26%);
+    }
+     /* ============== social icons =============== */
+    .get_start { margin: 0 100px;}
+    .search_anything {margin: 0 180px;}
+    .media_icons ul {padding: 20px;}
+    .media_icons::after {background: none;}
+    .get_start::after {background: none;}
+    .search_anything::after {background: none;}
+    .media_icons {padding: 0px 0;}
+    .media_icons ul {padding: 5px;}
+    .search_area input {width: 70%; margin: 0 80px;}
+    .logo_para h2 {font-size: 37px;padding-bottom: 20px;}
+    .logo_para{text-align: center;}
+    .recent_post h3 {
+        font-size: 20px;
+        padding: 25px 0 15px;
+        text-align: center;
+    }
+    .media_icons ul { width: 50%; margin: 0 auto;}
+    .post_no1 {width: 60%;margin-left: 22%;}
+    .post_no2 {width: 60%;margin-left: 22%;}
+    .contact_section {padding: 18px 20px;text-align: center;}
+    .sing_up_area {padding: 15px 0;text-align: center;}
+    .sing_up_area form input[type="text"] {width: 70%;margin: 5px 0;}
+    .sing_up_area form input[type="email"] {width: 70%;margin: 5px 0;}
+}
+
+@media(max-width:575px){
+    .top-right { margin-left: 55px;}
+    .revenant-details h2 {font-size: 22px;}
+    .revenant-details p {width: 90%;}
+    .portfolio_title h2 {width: 70%;font-size: 23px;}
+    .portfolio_card_1 {width: 90%;margin: 0 auto;}
+    .testimonial_title h2 {width: 40%;margin: 0 auto;}
+    .testimonial_title .testimonial_li {margin: -15px 70px 0px;}
+    .frq_more_q {margin: 10px auto;width: 80%;}
+    .faq_section h2 { width: 70%;margin: 0 auto;}
+    .faq_section li {margin: -5px 10px 0;}
+    .news_title { width: 95%;margin: 0 auto;}
+    .news_coustory {display: block;width: 85%;padding: 15px 0 15px; margin: 0 auto;}
+    .news_coustory img {width: 75%;margin: 0 21px 5px;}
+    .date_time {left: -16%; top: 10%; transform: translate(16%, -10%);}
+    .person_details {display: block;width: 95%; margin: 0 auto;}
+    .testimonial_title {width: 95%;margin: 0 10px;}
+    .person_details img { width: 30%;margin: 5px  74px 10px;}
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        font-size: 50px;
+        height: 50px;;
+    }
+    .owl-nav{width: 20%; margin: 0 auto;}
+    /* ============= social icons ============== */
+    .get_start {text-align: center;}
+    .get_start h3 {font-size: 18px;}
+    .media_icons ul{justify-content: center;}
+    .media_icons ul li {padding: 10px 20px;}
+    .media_icons ul li a i{font-size: 1.2rem;}
+    .search_area input {width: 85%; margin: 0 30px;}
+    .contact_section p {font-size: 18px;}
+    .post_no1 { width: 80%; margin-left: 12%;}
+    .post_no2 { width: 80%; margin-left: 12%;}
+    .post_no1_description h5 {font-size: 18px;}
+    .post_no1_description p {font-size: 16px;}
+    .post_no1_description {padding: 13px 15px;}
+    
+    .sing_up_area form input[type="text"] {width: 80%;}
+    .sing_up_area form input[type="email"] {width: 80%;}
+    .sing_up_area form input[type="submit"] {margin-left: 0px;}
+    .made_in .make_by::after {background: none;}
+    #mini_footer {padding: 10px 30px;}
+    .navbar ul li {padding: 0 5px;}
+}
+
+@media(max-width:450px){
+    .revenant-details h2 {font-size: 18px;top: 10%;}
+    .revenant-details p {width: 75%;font-size: 15px; top:85%;}
+    .circle_1 {margin: 22px 55px; height: 230px;width: 235px;} 
+    .txt-details h5 {padding: 20px 0 15px;}
+    .txt-details p {padding: 0 5px 15px;}
+    /* ============= testimonial section ============== */
+    .testimonial_title h2 {
+        font-size: 25px;
+        padding: 40px 0 25px;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .testimonial_title .testimonial_li { margin: -15px 85px 0;}
+    .faq_section h2 {
+        font-size: 20px;
+        padding: 25px 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .faq_section li {margin: -15px 50px 0;}
+    .frq_more_q {width: 70%;margin: 0 auto;}
+    .news_title h2 {font-size: 20px;width: 60%;}
+    #latest_news_section .news_title .div1 {
+        top: 37%;
+        left: 20%;
+        transform: translate(-37%, -20%);
+    }
+    #latest_news_section .news_title .div2 {
+        top: 37%;
+        right: 20%;
+        transform: translate(37%, -20%);
+    }
+    .date_time {left: 5.5%;}
+    .news_coustory {padding: 5px 0 20px;}
+    .common_class_for_slide {height: 200px;}
+    .get_start { margin: 0px 40px;}
+    .search_anything {margin: 0 100px;text-align: center;}
+}
+@media(max-width:320px){
+    .top-right {margin-left: 25px;}
+    .event h2 {font-size: 30px;}
+    .event p {font-size: 16px;padding-top: 8px;}
+    .drp-dwn ul li {padding: 20px 5px 18px;}
+    .revenant-details h2 {font-size: 16px;top: 9%;}
+    .revenant-details p {
+        width: 90%;
+        top: 97%;
+        line-height: 1.2rem;
+        font-size: 14px;
+        left: 25%;
+        transform: translate(-25%, -97%);
+    }
+    .circle_1 {
+        margin: 22px 30px;
+        height: 220px;
+        width: 225px;
+    }
+    .txt-details h5 {padding: 10px 0 10px;}
+    .txt-details p {padding: 0 5px 7px;}
+    .deshad-border {padding: 30px 0 20px;}
+    .portfolio_card_1 {width: 80%;margin: 0 auto;}
+    .owl-nav{width: 20%; margin: 0 auto;}
+    #portfolio_section {padding: 30px 0 10px;}
+    .testimonial_title h2 {font-size: 20px;padding: 25px 0 15px;width: 50%;}
+    .testimonial_title .testimonial_li {margin: -15px 50px 0;}
+    .person_details {display: block;width: 95%; margin: 0 auto;}
+    .testimonial_title {width: 95%;margin: 0 10px;}
+    .person_details img { width: 30%;margin: 5px  74px 10px;}
+    .faq_section li {margin: -15px 40px 0;}
+    .faq_question h6 {padding-left: 14px;}
+    .faq_question i::after { height: 63px;}
+    .faq_question i { padding: 10px 5px;padding-right: 15px;}
+    .frq_more_q {width: 75%; margin: 5px auto;}
+    #latest_news_section {padding: 30px 0 0;}
+    .news_title h2 {padding-bottom: 15px;}
+    #latest_news_section .news_title .div1 {top: 27%;transform: translate(-27%, -20%);}
+    #latest_news_section .news_title .div2 {top: 27%;right: 19%;transform: translate(-27%, -19%);}
+    .news_coustory {display: block;width: 85%;padding: 15px 0 15px;}
+    .news_coustory img {width: 75%;margin: 0 21px 5px;}
+    .date_time {left: 12.5%;top: 10%;}
+    .common_class_for_slide {height: 150px;}
+    .slide_section {padding: 20px 0 10px;}
+    .media_icons ul li {padding: 10px 12px;}
+    .search_anything {margin: 0 45px;}
+    .search_area input { width: 68%; margin: 0px 50px;}
+    .post_no1 {width: 80%;margin-left: 12%;}
+    .post_no2 {width: 80%;margin-left: 12%;}
+    .sing_up_area form input[type="text"] {width: 80%;}
+    .sing_up_area form input[type="email"] {width: 80%;}
+    .sing_up_area form input[type="submit"] {margin-left: 0px;}
+    .made_in .make_by::after {background: none;}
+    #mini_footer {padding: 10px 20px;}
+    .navbar ul li {padding: 0 5px;}
+
+}
